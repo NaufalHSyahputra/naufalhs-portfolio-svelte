@@ -1,0 +1,780 @@
+{
+	"basics": {
+		"name": "Naufal Hakim Syahputra",
+		"headline": "Senior Software Engineer",
+		"email": "naufalhsyahputra@gmail.com",
+		"phone": "+628137023344",
+		"location": "Bekasi, Indonesia",
+		"url": {
+			"label": "",
+			"href": ""
+		},
+		"customFields": [
+			{
+				"id": "qhvgl4zdueqgix8nhhlly4dn",
+				"icon": "github-logo",
+				"name": "Github",
+				"value": "https://github.com/naufalhsyahputra"
+			},
+			{
+				"id": "lvtce62ar5vetfbphg4u6v28",
+				"icon": "linkedin-logo",
+				"name": "LinkedIn",
+				"value": "https://www.linkedin.com/in/naufalhsyahputra"
+			},
+			{
+				"id": "lvtce62ar5vetfbphg4u6v28",
+				"icon": "whatsapp-logo",
+				"name": "WhatsApp",
+				"value": "https://wa.me/628137023344"
+			}
+		],
+		"picture": {
+			"url": "/assets/profile.jpg",
+			"size": 512,
+			"aspectRatio": 1,
+			"borderRadius": 0,
+			"effects": {
+				"hidden": false,
+				"border": false,
+				"grayscale": false
+			}
+		}
+	},
+	"sections": {
+		"summary": {
+			"name": "Summary",
+			"columns": 1,
+			"separateLinks": true,
+			"visible": true,
+			"id": "summary",
+			"content": "Results-driven Senior Backend Engineer with 5+ years of expertise in designing and scaling high-performance systems using Golang, Laravel (PHP), and JavaScript. Proven track record in RESTful APIs, microservices, cloud infrastructure (AWS), and CI/CD pipelines. Adept at leading cross-functional teams to deliver solutions that enhance system efficiency, reduce costs, and drive business growth."
+		},
+		"education": {
+			"name": "Education",
+			"columns": 1,
+			"separateLinks": true,
+			"visible": true,
+			"id": "education",
+			"items": [
+				{
+					"id": "jco8ildw24n42qcoyjmjbvql",
+					"visible": true,
+					"institution": "Esa Unggul University",
+					"studyType": "Bachelor's Degree",
+					"area": "Informatics Engineering",
+					"score": "3.45",
+					"date": "2015 - 2019",
+					"summary": "",
+					"url": {
+						"label": "Esa Unggul University",
+						"href": "https://www.esaunggul.ac.id/"
+					}
+				}
+			]
+		},
+		"experience": {
+			"name": "Experience",
+			"columns": 1,
+			"separateLinks": true,
+			"visible": true,
+			"id": "experience",
+			"items": [
+				{
+					"id": "fcrhm3s80f6s22xhkucu4327",
+					"visible": true,
+					"company": "PT. Elektronik Distribusi Otomatisasi Terkemuka (eDOT)",
+					"position": "Backend Developer Consultant",
+					"location": "Jakarta, Indonesia",
+					"date": "Feb 2026 - May 2026",
+					"summary": "Engineered and maintained Golang backend services for the eSuite Inventory system, streamlining real-time SAP stock synchronization and multi-tenant mapping across regional warehouses in the Philippines. Developed sophisticated data hydration logic in MongoDB to resolve master data inconsistencies, ensuring high-fidelity API responses for critical stock management features. Integrated OpenTelemetry and Grafana observability stacks, establishing automated alerting for sync failures and optimizing system performance through continuous profiling.",
+					"summaries": [
+						"Engineered and implemented the SAP Stock Sync v2 engine using Golang and Hexagonal Architecture, facilitating real-time inventory alignment between internal microservices and SAP ERP systems.",
+						"Developed complex multi-tenant mapping and validation logic for international company codes (e.g., Philippines), ensuring 100% accuracy in stock resolution across regional warehouses and Mega Distribution Centers (Mega DC).",
+						"Integrated OpenTelemetry (OTEL) and Grafana Pyroscope to establish a robust observability stack, enabling proactive performance bottleneck detection and automated alerting for sync failures via Grafana.",
+						"Optimized backend data integrity by implementing sophisticated hydration layers in MongoDB, resolving master data inconsistencies (e.g., UOM resolution) and ensuring high-fidelity API responses for stock management features.",
+						"Collaborated across product, ops, and integration teams to align backend inventory logic with localized operational workflows — reducing system discrepancies and improving cross-platform data consistency."
+					],
+					"multipleSummaries": [],
+					"technologies": [
+						"Golang",
+						"NoSQL",
+						"MongoDB",
+						"Gitlab",
+						"Docker",
+						"gRPC",
+						"Apache NiFi",
+						"OpenTelemetry",
+						"Grafana Pyroscope",
+						"Hexagonal Architecture"
+					],
+					"url": {
+						"label": "eDOT",
+						"href": "https://edot.id/en"
+					}
+				},
+				{
+					"id": "h4hx81s16lnt1g9wp76d63q0",
+					"visible": true,
+					"company": "Renos.id",
+					"position": "Senior Software Engineer",
+					"location": "Jakarta, Indonesia",
+					"date": "Jul 2023 - Jan 2026",
+					"summary": "Developed and maintained Golang backend services for the One-Stop Tool, streamlined lead, survey, order, and vendor management across Indonesian and Thai units. Engineered the Home Trend service backend to boost product discovery and user engagement through curated design inspirations. Built RFQ automation workflows in Golang, reducing manual quoting time by 30% and increasing vendor response efficiency.",
+					"summaries": [
+						"Designed and implemented Golang microservices for regional SaaS back-office platforms (Thailand & Indonesia), owning core domains including order management, pricing & VAT calculation, vendor on-boarding, and payment workflows.",
+						"Integrated back-end services with NetSuite and regional payment gateways, deploying containerized workloads on AWS ECS using Docker and CI/CD pipelines, supporting thousands of financial transactions in production.",
+						"Reduced quotation turnaround time by approximately 50% by streamlining back-end workflows and improving service-level performance.",
+						"Designed and operated back-end services for the Renos Home Trend platform, supporting inspiration feeds, hashtag discovery, saved folders, product tagging, and engagement analytics, backed by PostgreSQL and AWS S3.",
+						"Supported a platform serving approximately 5.5M annual users and contributed to a ~1% conversion uplift through reliable data pipelines and low-latency API design.",
+						"Designed and delivered an end-to-end B2B RFQ and payments platform, enabling promo code and credit card payments (full and installment), improving checkout conversion by 15-20%, increasing completed transactions by 25-30%, and reducing off-platform deals by ~40%.",
+						"Led back-end alignment across Thailand and Indonesia platforms, defining shared service boundaries and country-specific workflows to support regional integrations and regulatory requirements."
+					],
+					"multipleSummaries": [],
+					"technologies": ["Golang", "PostgreSQL", "AWS", "Docker"],
+					"url": {
+						"label": "Renos.id",
+						"href": "https://renos.id"
+					}
+				},
+				{
+					"id": "rsmrn31u2dqjki7j88oc3yak",
+					"visible": true,
+					"company": "Renos.id",
+					"position": "Software Engineer",
+					"location": "Jakarta, Indonesia",
+					"date": "Dec 2021 - Jun 2023",
+					"summary": "Refactored legacy Laravel services into high-performance Golang microservices, reducing response times by up to 40%. Integrated third-party APIs (Payment Gateway, Logistics, Netsuite, TikTok, MoEngage, Google Analytics) to enhance platform functionality and business intelligence. Deployed Elasticsearch to support scalable product search, improving user experience and conversion rates.",
+					"summaries": [
+						"Refactored a monolithic Laravel-based system into distributed Golang microservices, redesigning service boundaries and introducing concurrent processing to improve scalability and maintainability.",
+						"Reduced API response latency by approximately 40% by optimizing inter-service communication and removing bottlenecks in critical request paths.",
+						"Designed and implemented resilient RESTful integrations with external enterprise and analytics systems across payments, logistics, ERP, marketing, and attribution platforms.",
+						"Architected and implemented a scalable Elasticsearch-based search solution, optimizing indexing strategies and relevance tuning to improve search performance and product discovery.",
+						"Improved CI/CD pipelines by integrating automated code quality analysis and production error monitoring using SonarCloud and Sentry."
+					],
+					"multipleSummaries": [],
+					"technologies": ["Golang", "Laravel", "PostgreSQL", "Elasticsearch", "Docker", "AWS"],
+					"url": {
+						"label": "Renos.id",
+						"href": "https://renos.id"
+					}
+				},
+				{
+					"id": "zjy7nshdmslk0265yygoh8iu",
+					"visible": true,
+					"company": "Multiple Clients, Indonesia",
+					"position": "Freelance Backend Engineer / Full Stack Engineer (Contract)",
+					"location": "Remote",
+					"date": "Dec 2023 - Present",
+					"summary": "",
+					"summaries": [],
+					"multipleSummaries": [
+						{
+							"company": "PT Tri Cipta Integra — Omnichannel Messaging Platform",
+							"summaries": [
+								"Designed and implemented backend services for a unified omnichannel communication platform integrating WhatsApp, Instagram, and Facebook messaging APIs.",
+								"Implemented rule-based and load-aware chat routing with stateful conversation management, reducing misrouted conversations by ~30%.",
+								"Built backend services for real-time metrics aggregation, ticketing workflows, and SLA tracking, improving operational visibility.",
+								"Designed reusable message schemas and role-based access control for templated responses and internal messaging."
+							]
+						},
+						{
+							"company": "PT Inovasi Niaga Integrasi (Waizly)",
+							"summaries": [
+								"Designed and developed scalable backend services for inventory management, order processing, and analytics using Laravel and PostgreSQL.",
+								"Automated inventory reporting and reconciliation workflows, reducing manual reporting effort by ~80%.",
+								"Integrated Shopee APIs using idempotent synchronization logic to prevent overselling across platforms.",
+								"Implemented RBAC and user activity changelogs to improve security and auditability."
+							]
+						},
+						{
+							"company": "PT Hilotech Karya Anak Indonesia",
+							"summaries": [
+								"Delivered supporting frontend components for training and HR platforms, collaborating with backend services for role-based workflows and analytics."
+							]
+						}
+					],
+					"technologies": ["PHP", "Laravel", "ReactJS", "PostgreSQL", "MySQL", "Redis"],
+					"url": {
+						"label": "PT Tri Cipta Integra",
+						"href": "https://crm.datakelola.com/"
+					}
+				},
+				{
+					"id": "og79at6u041y7a0k5iqf9pqh",
+					"visible": true,
+					"company": "PT Arca International",
+					"position": "Full Stack Developer",
+					"location": "Jakarta, Indonesia",
+					"date": "Oct 2019 - Nov 2021",
+					"summary": "Developed and maintained a Laravel-based marketplace for poultry farm products. Built and maintained backend services for Agrinis Farm and ProHukum platforms. Delivered a scalable HRIS platform using Laravel, Redis, Docker, and ReactJS.",
+					"summaries": [
+						"Designed and maintained backend services for a Laravel-based marketplace platform supporting end-to-end commerce workflows, including product catalogs, pricing, orders, and transactional data management.",
+						"Engineered modular backend services for the Agrinis Farm platform, implementing optimized relational data models and performance-tuned PostgreSQL queries to ensure data consistency and operational stability.",
+						"Built RESTful APIs for a legal services platform, supporting case management workflows with role-based access control and transactional integrity across critical user operations.",
+						"Delivered a scalable Human Resource Information System (HRIS), designing Laravel-based APIs integrated with Redis caching and Dockerized deployments to support concurrent users and organizational growth."
+					],
+					"multipleSummaries": [],
+					"technologies": ["PHP", "Laravel", "MySQL", "Redis", "Docker", "ReactJS", "Mercurial"],
+					"url": {
+						"label": "PT Arca International",
+						"href": "https://arcacorp.com/"
+					}
+				}
+			]
+		},
+		"languages": {
+			"name": "Languages",
+			"columns": 1,
+			"separateLinks": true,
+			"visible": true,
+			"id": "languages",
+			"items": [
+				{
+					"id": "wibw0c1f69cp0rba5tm9boaw",
+					"visible": true,
+					"name": "Bahasa Indonesia",
+					"description": "",
+					"level": 0
+				},
+				{
+					"id": "zcwm583xusno1rvbi6icbd5v",
+					"visible": true,
+					"name": "English",
+					"description": "",
+					"level": 0
+				}
+			]
+		},
+		"projects": {
+			"name": "Projects",
+			"columns": 1,
+			"separateLinks": true,
+			"visible": true,
+			"id": "projects",
+			"items": [
+				{
+					"id": "edot-esuite",
+					"visible": true,
+					"title": "eSuite",
+					"description": "The esuite Company Platform is a comprehensive Enterprise Resource Planning (ERP) system designed to streamline business operations across multiple domains.",
+					"company": "eDOt",
+					"experienceId": "fcrhm3s80f6s22xhkucu4327",
+					"coverImage": "/assets/edot/cover.png",
+					"images": ["/assets/edot/edot1.png", "/assets/edot/edot2.png"],
+					"technologies": [
+						"Golang",
+						"NoSQL",
+						"MongoDB",
+						"Gitlab",
+						"Docker",
+						"gRPC",
+						"Apache NiFi",
+						"OpenTelemetry",
+						"Grafana Pyroscope",
+						"Hexagonal Architecture"
+					]
+				},
+				{
+					"id": "one-stop-tool",
+					"visible": true,
+					"title": "SaaS back-office platforms",
+					"description": "A SaaS back-office platform for managing orders, pricing, vendors, and financial operations in home solution and design-and-build businesses.",
+					"company": "Renos.id",
+					"experienceId": "h4hx81s16lnt1g9wp76d63q0",
+					"coverImage": "/assets/dnb/cover.png",
+					"images": [
+						"/assets/dnb/dnb1.png",
+						"/assets/dnb/dnb2.png",
+						"/assets/dnb/dnb3.png",
+						"/assets/dnb/dnb4.png",
+						"/assets/dnb/dnb5.png",
+						"/assets/dnb/dnb6.png",
+						"/assets/dnb/dnb7.png",
+						"/assets/dnb/dnb8.png"
+					],
+					"technologies": ["Golang", "PostgreSQL", "Redis", "Docker"]
+				},
+				{
+					"id": "hometrend",
+					"visible": true,
+					"title": "Renos Hometrend Platform",
+					"description": "Pinterest-like inspiration commerce feature that enables users to discover curated home design content, save inspirations, and seamlessly navigate from visual ideas to shoppable products within the Renos marketplace.",
+					"company": "Renos.id",
+					"experienceId": "h4hx81s16lnt1g9wp76d63q0",
+					"coverImage": "/assets/hometrend/cover.png",
+					"images": [
+						"/assets/hometrend/hometrend1.jpg",
+						"/assets/hometrend/hometrend2.jpg",
+						"/assets/hometrend/hometrend3.jpg",
+						"/assets/hometrend/hometrend4.jpg"
+					],
+					"technologies": ["Golang", "PostgreSQL", "Redis", "Docker"]
+				},
+				{
+					"id": "rfq-automation",
+					"visible": true,
+					"title": "RFQ Automation System",
+					"description": "Automated request for quotation workflows that reduced manual quoting time by 30% and increased vendor response efficiency.",
+					"company": "Renos.id",
+					"experienceId": "h4hx81s16lnt1g9wp76d63q0",
+					"coverImage": "/assets/bidding/cover.png",
+					"images": [
+						"/assets/bidding/bidding1.png",
+						"/assets/bidding/bidding2.png",
+						"/assets/bidding/bidding3.png",
+						"/assets/bidding/bidding4.png",
+						"/assets/bidding/bidding5.png"
+					],
+					"technologies": ["Golang", "PostgreSQL", "Kubernetes"]
+				},
+				{
+					"id": "omnichannel-crm",
+					"visible": true,
+					"title": "Omnichannel Helpdesk and CRM",
+					"description": "Integrated WhatsApp, Instagram, and Facebook APIs for unified customer communication with intelligent chat distribution and agent assignment.",
+					"company": "PT Tri Cipta Integra",
+					"experienceId": "zjy7nshdmslk0265yygoh8iu",
+					"coverImage": "/assets/datakelola/cover.png",
+					"images": [
+						"/assets/datakelola/datakelola1.png",
+						"/assets/datakelola/datakelola2.png",
+						"/assets/datakelola/datakelola3.png",
+						"/assets/datakelola/datakelola4.png",
+						"/assets/datakelola/datakelola5.png"
+					],
+					"technologies": ["Node.js", "ReactJS", "PostgreSQL", "Redis"]
+				},
+				{
+					"id": "inventory-system",
+					"visible": true,
+					"title": "Shipping Aggregator and Order Management System",
+					"description": "Backend systems for inventory, order, and analytics with automated workflows and Shopee API integration that cut manual reporting time by 80%.",
+					"company": "PT Inovasi Niaga Integrasi (Waizly)",
+					"experienceId": "y5d0k4ykq1lwdwa3bp4ew66e",
+					"coverImage": "/assets/waizly/cover.png",
+					"images": [
+						"/assets/waizly/waizly1.png",
+						"/assets/waizly/waizly2.png",
+						"/assets/waizly/waizly3.png",
+						"/assets/waizly/waizly4.png",
+						"/assets/waizly/waizly5.png",
+						"/assets/waizly/waizly6.png",
+						"/assets/waizly/waizly7.png",
+						"/assets/waizly/waizly8.png",
+						"/assets/waizly/waizly9.png"
+					],
+					"technologies": ["Laravel", "PostgreSQL", "Redis"]
+				},
+				{
+					"id": "lms",
+					"visible": true,
+					"title": "Learning Application System",
+					"description": "Internal Learning Application System designed to centralize training data, automate HR administration, and align employee competencies with organizational goals.",
+					"company": "PT Hilotech Karya Anak Indonesia",
+					"experienceId": "y5d0k4ykq1lwdwa3bp4ew66e",
+					"coverImage": "/assets/lms/cover.png",
+					"images": ["/assets/lms/lms1.png", "/assets/lms/lms2.png", "/assets/lms/lms3.png"],
+					"technologies": ["Laravel", "PostgreSQL", "Redis"]
+				},
+				{
+					"id": "agrinis",
+					"visible": true,
+					"title": "Agrinis Shop",
+					"description": "Online store (e-commerce platform) for Agrinis, an Indonesian agritech company focused on the poultry industry.",
+					"company": "PT Arca International",
+					"experienceId": "y5d0k4ykq1lwdwa3bp4ew66e",
+					"coverImage": "/assets/shop/cover.png",
+					"images": ["/assets/shop/shop1.png", "/assets/shop/shop2.png", "/assets/shop/shop3.png"],
+					"technologies": ["Laravel", "MySQL", "ReactJS", "Mercurial"]
+				},
+				{
+					"id": "prohukum",
+					"visible": true,
+					"title": "ProHukum",
+					"description": "ProHukum is a legal practice management software platform designed primarily for law firms in Indonesia. It helps firms manage cases, time tracking, billing, and financial administration through a centralized digital system to improve operational efficiency and transparency.",
+					"company": "PT Arca International",
+					"experienceId": "y5d0k4ykq1lwdwa3bp4ew66e",
+					"coverImage": "/assets/ph/cover.png",
+					"images": ["/assets/ph/ph1.png", "/assets/ph/ph2.png", "/assets/ph/ph3.png"],
+					"technologies": ["Laravel", "MySQL", "ReactJS", "Mercurial"]
+				}
+			]
+		},
+		"skills": {
+			"name": "Skills",
+			"columns": 1,
+			"separateLinks": true,
+			"visible": true,
+			"id": "skills",
+			"items": [
+				{
+					"id": "backend-dev",
+					"visible": true,
+					"name": "Backend Development",
+					"description": "",
+					"level": 0,
+					"keywords": [
+						{
+							"title": "Golang",
+							"image": "Go.svg",
+							"image_dark": "Go.svg"
+						},
+						{
+							"title": "PHP",
+							"image": "PHP.svg",
+							"image_dark": "PHP.svg"
+						},
+						{
+							"title": "Javascript",
+							"image": "javascript.svg",
+							"image_dark": "javascript.svg"
+						},
+						{
+							"title": "RESTful APIs",
+							"image": "apis.svg",
+							"image_dark": "apis.svg"
+						},
+						{
+							"title": "Microservices",
+							"image": "microservices.svg",
+							"image_dark": "microservices.svg"
+						},
+						{
+							"title": "Distributed Systems",
+							"image": "distributed.png",
+							"image_dark": "distributed.png"
+						},
+						{
+							"title": "Monolith-to-Microservice Refactoring",
+							"image": "refactor.svg",
+							"image_dark": "refactor.svg"
+						},
+						{
+							"title": "KrakenD",
+							"image": "krakend.svg",
+							"image_dark": "krakend.svg"
+						},
+						{
+							"title": "gRPC",
+							"image": "grpc.svg",
+							"image_dark": "grpc.svg"
+						},
+						{
+							"title": "Hexagonal Architecture",
+							"image": "hexagonal.svg",
+							"image_dark": "hexagonal.svg"
+						}
+					]
+				},
+				{
+					"id": "backend-frameworks",
+					"visible": true,
+					"name": "Backend Frameworks",
+					"description": "",
+					"level": 0,
+					"keywords": [
+						{
+							"title": "Laravel",
+							"image": "Laravel.svg",
+							"image_dark": "Laravel.svg"
+						},
+						{
+							"title": "Node.js",
+							"image": "Node.svg",
+							"image_dark": "Node.svg"
+						},
+						{
+							"title": "Gin",
+							"image": "gin.svg",
+							"image_dark": "gin.svg"
+						},
+						{
+							"title": "Echo",
+							"image": "echo.png",
+							"image_dark": "echo.png"
+						},
+						{
+							"title": "Fiber",
+							"image": "fiber-light.svg",
+							"image_dark": "fiber.svg"
+						},
+						{
+							"title": "Chi",
+							"image": "chi.svg",
+							"image_dark": "chi.svg"
+						},
+						{
+							"title": "ExpressJS",
+							"image": "express.svg",
+							"image_dark": "express-dark.svg"
+						}
+					]
+				},
+				{
+					"id": "data-stores",
+					"visible": true,
+					"name": "Databases & Data Stores",
+					"description": "",
+					"level": 0,
+					"keywords": [
+						{
+							"title": "PostgreSQL",
+							"image": "postgresql.svg",
+							"image_dark": "postgresql.svg"
+						},
+						{
+							"title": "MySQL",
+							"image": "mysql.svg",
+							"image_dark": "mysql.svg"
+						},
+						{
+							"title": "NoSQL",
+							"image": "nosql.svg",
+							"image_dark": "nosql.svg"
+						},
+						{
+							"title": "MongoDB",
+							"image": "mongodb.svg",
+							"image_dark": "mongodb.svg"
+						},
+						{
+							"title": "Elasticsearch",
+							"image": "elasticsearch.svg",
+							"image_dark": "elasticsearch.svg"
+						},
+						{
+							"title": "Redis",
+							"image": "redis.svg",
+							"image_dark": "redis.svg"
+						}
+					]
+				},
+				{
+					"id": "cloud-infra",
+					"visible": true,
+					"name": "Cloud & Infrastructure",
+					"description": "",
+					"level": 0,
+					"keywords": [
+						{
+							"title": "AWS",
+							"image": "aws.svg",
+							"image_dark": "aws.svg"
+						},
+						{
+							"title": "AWS ECS",
+							"image": "aws-ecs.svg",
+							"image_dark": "aws-ecs.svg"
+						},
+						{
+							"title": "AWS EC2",
+							"image": "EC2.svg",
+							"image_dark": "EC2.svg"
+						},
+						{
+							"title": "AWS S3",
+							"image": "S3.svg",
+							"image_dark": "S3.svg"
+						},
+						{
+							"title": "Docker",
+							"image": "docker.svg",
+							"image_dark": "docker.svg"
+						},
+						{
+							"title": "Linux",
+							"image": "linux.svg",
+							"image_dark": "linux.svg"
+						},
+						{
+							"title": "CI/CD",
+							"image": "cicd.svg",
+							"image_dark": "cicd.svg"
+						},
+						{
+							"title": "Apache NiFi",
+							"image": "nifi.svg",
+							"image_dark": "nifi.svg"
+						}
+					]
+				},
+				{
+					"id": "testing-quality",
+					"visible": true,
+					"name": "Testing & Quality",
+					"description": "",
+					"level": 0,
+					"keywords": [
+						{
+							"title": "Unit Testing",
+							"image": "unit-test.svg",
+							"image_dark": "unit-test.svg"
+						},
+						{
+							"title": "Integration Testing",
+							"image": "integration-testing.svg",
+							"image_dark": "integration-testing.svg"
+						},
+						{
+							"title": "Contract Testing",
+							"image": "contract-testing.svg",
+							"image_dark": "contract-testing.svg"
+						},
+						{
+							"title": "SonarCloud",
+							"image": "sonarqube.svg",
+							"image_dark": "sonarqube.svg"
+						}
+					]
+				},
+				{
+					"id": "observability-reliability",
+					"visible": true,
+					"name": "Observability & Reliability",
+					"description": "",
+					"level": 0,
+					"keywords": [
+						{
+							"title": "Sentry",
+							"image": "sentry.svg",
+							"image_dark": "sentry.svg"
+						},
+						{
+							"title": "Metrics",
+							"image": "metrics.svg",
+							"image_dark": "metrics.svg"
+						},
+						{
+							"title": "Tracing",
+							"image": "tracing.svg",
+							"image_dark": "tracing.svg"
+						},
+						{
+							"title": "Grafana",
+							"image": "grafana.svg",
+							"image_dark": "grafana.svg"
+						},
+						{
+							"title": "Logging",
+							"image": "log.svg",
+							"image_dark": "log.svg"
+						},
+						{
+							"title": "OpenTelemetry",
+							"image": "opentelemetry.svg",
+							"image_dark": "opentelemetry.svg"
+						}
+					]
+				},
+				{
+					"id": "security",
+					"visible": true,
+					"name": "Security & Access Control",
+					"description": "",
+					"level": 0,
+					"keywords": [
+						{
+							"title": "JWT",
+							"image": "jwt.svg",
+							"image_dark": "jwt.svg"
+						},
+						{
+							"title": "Role-Based Access Control",
+							"image": "rbac.svg",
+							"image_dark": "rbac.svg"
+						},
+						{
+							"title": "Secure API Design",
+							"image": "lock.svg",
+							"image_dark": "lock.svg"
+						},
+						{
+							"title": "Authorization",
+							"image": "key.svg",
+							"image_dark": "key.svg"
+						}
+					]
+				},
+				{
+					"id": "tools-collaboration",
+					"visible": true,
+					"name": "Tools & Collaboration",
+					"description": "",
+					"level": 0,
+					"keywords": [
+						{
+							"title": "Git",
+							"image": "git.svg",
+							"image_dark": "git.svg"
+						},
+						{
+							"title": "Mercurial",
+							"image": "mercurial.svg",
+							"image_dark": "mercurial.svg"
+						},
+						{
+							"title": "GitHub",
+							"image": "github.svg",
+							"image_dark": "github.svg"
+						},
+						{
+							"title": "Gitlab",
+							"image": "gitlab.svg",
+							"image_dark": "gitlab.svg"
+						},
+						{
+							"title": "JIRA",
+							"image": "jira.svg",
+							"image_dark": "jira.svg"
+						},
+						{
+							"title": "Confluence",
+							"image": "confluence.svg",
+							"image_dark": "confluence.svg"
+						},
+						{
+							"title": "Agile",
+							"image": "agile.svg",
+							"image_dark": "agile.svg"
+						},
+						{
+							"title": "Scrum",
+							"image": "scrum.svg",
+							"image_dark": "scrum.svg"
+						},
+						{
+							"title": "Remote and Asynchronous Collaboration",
+							"image": "remote.svg",
+							"image_dark": "remote.svg"
+						}
+					]
+				},
+				{
+					"id": "frontend-support",
+					"visible": true,
+					"name": "Frontend (Support)",
+					"description": "",
+					"level": 0,
+					"keywords": [
+						{
+							"title": "Javascript",
+							"image": "javascript.svg",
+							"image_dark": "javascript.svg"
+						},
+						{
+							"title": "ReactJS",
+							"image": "react.svg",
+							"image_dark": "react.svg"
+						},
+						{
+							"title": "VueJS",
+							"image": "vue.svg",
+							"image_dark": "vue.svg"
+						}
+					]
+				}
+			]
+		}
+	}
+}

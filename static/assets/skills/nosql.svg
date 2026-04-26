@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <!-- cylinder body -->
+  <path d="M3 6.5 C3 4.57 7.03 3 12 3 C16.97 3 21 4.57 21 6.5 L21 17.5 C21 19.43 16.97 21 12 21 C7.03 21 3 19.43 3 17.5 Z" fill="#4DB33D"/>
+  <!-- mid stripe -->
+  <path d="M3 12 C3 13.93 7.03 15.5 12 15.5 C16.97 15.5 21 13.93 21 12" fill="none" stroke="#6ECF6E" stroke-width="0.8" opacity="0.7"/>
+  <!-- top ellipse highlight -->
+  <ellipse cx="12" cy="6.5" rx="9" ry="2.5" fill="#6ECF6E"/>
+  <!-- leaf accent (document/non-relational symbol) -->
+  <path d="M12 7.5 C12 7.5 10 9.5 10 11.5 C10 12.6 10.9 13.5 12 13.5 C13.1 13.5 14 12.6 14 11.5 C14 9.5 12 7.5 12 7.5 Z" fill="white" opacity="0.25"/>
+</svg>
