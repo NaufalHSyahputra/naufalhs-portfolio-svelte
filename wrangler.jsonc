@@ -1,0 +1,12 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "naufalhs-portfolio", // Your project name
+	"pages_build_output_dir": "./dist", // The standard output directory for Vite builds
+	"compatibility_date": "2024-11-01", // Sets the version of the Workers runtime
+	"compatibility_flags": [
+		"nodejs_compat" // Recommended if you use any Node.js APIs or libraries
+	],
+	"vars": {
+		"NODE_VERSION": "20" // Optional: Ensures a modern Node environment during the build
+	}
+}
