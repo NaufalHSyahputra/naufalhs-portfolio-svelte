@@ -9,4 +9,8 @@ npm run check
 npm run build
 ```
 
-The project uses SvelteKit's auto adapter. Select a deployment adapter appropriate to your hosting provider when deploying.
+## Cloudflare Workers
+
+The project uses the Cloudflare adapter for SvelteKit 2. In Cloudflare Workers Builds, use `npm run build` as the build command and `npx wrangler deploy` as the deploy command. The Worker and assets are configured in `wrangler.jsonc`; the Worker name matches the existing Cloudflare project.
+
+For a local Cloudflare runtime preview, run `npm run build` followed by `npx wrangler dev`.
