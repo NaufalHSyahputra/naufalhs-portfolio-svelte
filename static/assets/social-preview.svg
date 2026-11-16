@@ -22,7 +22,8 @@
   <g font-family="Inter, Arial, sans-serif">
     <text x="92" y="222" fill="#0f172a" font-size="61" font-weight="700">Naufal Hakim</text>
     <text x="92" y="292" fill="#0f172a" font-size="61" font-weight="700">Syahputra</text>
-    <text x="96" y="351" fill="#2563eb" font-size="27" font-weight="600">Senior Backend Engineer | AI Systems &amp; Reliable Integrations</text>
+    <text x="96" y="351" fill="#2563eb" font-size="27" font-weight="600">Senior Backend Engineer</text>
+    <text x="96" y="387" fill="#2563eb" font-size="27" font-weight="600">AI Systems &amp; Reliable Integrations</text>
     <rect x="96" y="424" width="4" height="34" rx="2" fill="#2563eb"/>
     <text x="118" y="448" fill="#334155" font-size="22" font-weight="500">Go  ·  TypeScript  ·  Python  ·  AI Systems</text>
   </g>
