@@ -102,7 +102,7 @@
           "company": "Topmoon",
           "position": "AI Agent Engineer",
           "location": "Jakarta, Indonesia",
-          "date": "August 2026 - November 2026 (Ended)",
+          "date": "August 2026 - November 2026 (Project-based, ended)",
           "summary": "Built an AI listing-video agent, a self-service video workflow, and customer and internal ordering experiences.",
           "summaries": [
             "Built an OpenClaw-based AI agent that turns 3–8 property photos into 10–30-second listing videos, with staff approval before paid rendering.",
@@ -122,7 +122,7 @@
           "company": "KUPU",
           "position": "Full Stack Developer",
           "location": "Jakarta, Indonesia",
-          "date": "May 2026 - August 2026",
+          "date": "May 2026 - August 2026 (Project-based)",
           "summary": "Built a candidate data platform and a pre-production lead management platform for recruitment operations.",
           "summaries": [
             "Built a candidate data platform with React, Go, PostgreSQL, Elasticsearch, and Python, centralizing approximately 3,000 profiles for résumé intake and recruiter search.",

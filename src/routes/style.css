@@ -81,5 +81,6 @@ h1,h2,h3{font-weight:600;letter-spacing:-.02em}
   .hero-copy > .intro{order:3;margin:8px 0 24px}
   .hero-copy > .stats{order:4}
   .hero-copy > .actions{margin:20px 0 16px}
+  .experience-card .date{white-space:normal}
 }
 .project-content .description{-webkit-line-clamp:3}
