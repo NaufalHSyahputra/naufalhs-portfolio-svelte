@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" width="48" height="48">
+  <mask id="mask-next" maskUnits="userSpaceOnUse" x="0" y="0" width="180" height="180">
+    <circle cx="90" cy="90" r="90" fill="#FFF"/>
+  </mask>
+  <g mask="url(#mask-next)">
+    <circle cx="90" cy="90" r="90" fill="#000"/>
+    <path fill="url(#grad-next)" d="M149.508 157.52L69.142 54H54v71.97h12.38V70.089l68.784 89.262a89.72 89.72 0 0014.344-1.831z"/>
+    <path fill="#FFF" d="M126 54h12v72h-12z"/>
+  </g>
+  <defs>
+    <linearGradient id="grad-next" x1="109" y1="116.5" x2="144.5" y2="160.5" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF"/>
+      <stop offset="1" stop-color="#FFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+</svg>

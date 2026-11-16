@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title description">
+  <title id="title">Naufal Hakim Syahputra portfolio</title>
+  <desc id="description">Senior Backend Engineer | AI Systems and Reliable Integrations</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8fbff"/>
+      <stop offset="1" stop-color="#e8f1ff"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2563eb"/>
+      <stop offset="1" stop-color="#60a5fa"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#1d4ed8" flood-opacity=".18"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#background)"/>
+  <g opacity=".45" stroke="#bfdbfe" stroke-width="1">
+    <path d="M0 70H1200M0 150H1200M0 230H1200M0 310H1200M0 390H1200M0 470H1200M0 550H1200"/>
+    <path d="M80 0V630M160 0V630M240 0V630M320 0V630M400 0V630M480 0V630M560 0V630M640 0V630M720 0V630M800 0V630M880 0V630M960 0V630M1040 0V630M1120 0V630"/>
+  </g>
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="92" y="222" fill="#0f172a" font-size="61" font-weight="700">Naufal Hakim</text>
+    <text x="92" y="292" fill="#0f172a" font-size="61" font-weight="700">Syahputra</text>
+    <text x="96" y="351" fill="#2563eb" font-size="27" font-weight="600">Senior Backend Engineer | AI Systems &amp; Reliable Integrations</text>
+    <rect x="96" y="424" width="4" height="34" rx="2" fill="#2563eb"/>
+    <text x="118" y="448" fill="#334155" font-size="22" font-weight="500">Go  ·  TypeScript  ·  Python  ·  AI Systems</text>
+  </g>
+  <g filter="url(#shadow)">
+    <path d="M748 210L875 145L1025 240L966 408L784 420L700 318Z" fill="#fff" fill-opacity=".82" stroke="#93c5fd" stroke-width="2"/>
+    <path d="M748 210L875 145L1025 240M748 210L700 318L784 420M875 145L966 408M1025 240L966 408M700 318L966 408" fill="none" stroke="url(#blue)" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="748" cy="210" r="27" fill="#2563eb"/><circle cx="875" cy="145" r="31" fill="#1d4ed8"/>
+    <circle cx="1025" cy="240" r="26" fill="#3b82f6"/><circle cx="966" cy="408" r="32" fill="#2563eb"/>
+    <circle cx="784" cy="420" r="25" fill="#60a5fa"/><circle cx="700" cy="318" r="23" fill="#1d4ed8"/>
+    <circle cx="875" cy="145" r="10" fill="#fff"/><circle cx="966" cy="408" r="10" fill="#fff"/>
+  </g>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+  <!-- outer hexagon -->
+  <polygon points="12,2 20.78,7 20.78,17 12,22 3.22,17 3.22,7" fill="#EEF0FF" stroke="#5C6BC0" stroke-width="1.5" stroke-linejoin="round"/>
+  <!-- inner hexagon -->
+  <polygon points="12,6.5 16.33,9 16.33,14 12,16.5 7.67,14 7.67,9" fill="none" stroke="#5C6BC0" stroke-width="1.5" stroke-linejoin="round"/>
+  <!-- center dot -->
+  <circle cx="12" cy="12" r="1.8" fill="#5C6BC0"/>
+  <!-- connector lines from center to inner hex vertices -->
+  <line x1="12" y1="10.2" x2="12" y2="6.5" stroke="#5C6BC0" stroke-width="0.6" opacity="0.45"/>
+  <line x1="12" y1="13.8" x2="12" y2="16.5" stroke="#5C6BC0" stroke-width="0.6" opacity="0.45"/>
+  <line x1="10.44" y1="11.1" x2="7.67" y2="9" stroke="#5C6BC0" stroke-width="0.6" opacity="0.45"/>
+  <line x1="13.56" y1="12.9" x2="16.33" y2="14" stroke="#5C6BC0" stroke-width="0.6" opacity="0.45"/>
+  <line x1="13.56" y1="11.1" x2="16.33" y2="9" stroke="#5C6BC0" stroke-width="0.6" opacity="0.45"/>
+  <line x1="10.44" y1="12.9" x2="7.67" y2="14" stroke="#5C6BC0" stroke-width="0.6" opacity="0.45"/>
+</svg>

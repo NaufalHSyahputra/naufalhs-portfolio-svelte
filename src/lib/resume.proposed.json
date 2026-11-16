@@ -1,0 +1,977 @@
+{
+  "basics": {
+    "name": "Naufal Hakim Syahputra",
+    "headline": "Senior Backend Engineer | AI Systems & Reliable Integrations",
+    "email": "naufalhsyahputra@gmail.com",
+    "phone": "+628137023344",
+    "location": "Bekasi, Indonesia",
+    "url": {
+      "label": "Portfolio",
+      "href": "https://naufalhsyahputra.my.id"
+    },
+    "resumeDownloads": [
+      {
+        "label": "Backend CV (PDF)",
+        "href": "/assets/CV Backend 2026 - Naufal Hakim Syahputra.pdf"
+      },
+      {
+        "label": "Full Stack CV (PDF)",
+        "href": "/assets/CV Full Stack 2026 - Naufal Hakim Syahputra.pdf"
+      }
+    ],
+    "customFields": [
+      {
+        "id": "qhvgl4zdueqgix8nhhlly4dn",
+        "icon": "github-logo",
+        "name": "GitHub",
+        "value": "https://github.com/naufalhsyahputra"
+      },
+      {
+        "id": "linkedin-contact",
+        "icon": "linkedin-logo",
+        "name": "LinkedIn",
+        "value": "https://www.linkedin.com/in/naufalhsyahputra"
+      },
+      {
+        "id": "whatsapp-contact",
+        "icon": "whatsapp-logo",
+        "name": "WhatsApp",
+        "value": "https://wa.me/628137023344"
+      }
+    ],
+    "picture": {
+      "url": "/assets/profile.jpg",
+      "size": 512,
+      "aspectRatio": 1,
+      "borderRadius": 0,
+      "effects": {
+        "hidden": false,
+        "border": false,
+        "grayscale": false
+      }
+    },
+    "highlights": [
+      {
+        "value": "7+",
+        "label": "Years building systems"
+      }
+    ]
+  },
+  "sections": {
+    "summary": {
+      "name": "Summary",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "summary",
+      "content": "I build Go and Python services, data integrations, and AI-assisted workflows. My work spans commerce, recruitment, payments, and media—from Laravel-to-Go migration to resilient asynchronous processing."
+    },
+    "education": {
+      "name": "Education",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "education",
+      "items": [
+        {
+          "id": "jco8ildw24n42qcoyjmjbvql",
+          "visible": true,
+          "institution": "Esa Unggul University",
+          "studyType": "Bachelor's Degree",
+          "area": "Computer Science",
+          "score": "3.45/4.00",
+          "date": "2015 - 2019",
+          "summary": "",
+          "url": {
+            "label": "Esa Unggul University",
+            "href": "https://www.esaunggul.ac.id/"
+          }
+        }
+      ]
+    },
+    "experience": {
+      "name": "Experience",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "experience",
+      "items": [
+        {
+          "id": "topmoon-ai-agent-2026",
+          "visible": true,
+          "company": "Topmoon",
+          "position": "AI Agent Engineer",
+          "location": "Jakarta, Indonesia",
+          "date": "August 2026 - November 2026 (Ended)",
+          "summary": "Built an AI listing-video agent, a self-service video workflow, and customer and internal ordering experiences.",
+          "summaries": [
+            "Built an OpenClaw-based AI agent that turns 3–8 property photos into 10–30-second listing videos, with staff approval before paid rendering.",
+            "Improved AI workflow recovery with persisted job state, controlled provider concurrency, and retries for failed outputs; built a FastAPI worker and FFmpeg assembly for self-service video generation.",
+            "Delivered an internal order-management MVP with Next.js and NestJS and developed a checkout hand-off with server-owned payment verification."
+          ],
+          "multipleSummaries": [],
+          "technologies": [],
+          "url": {
+            "label": "Topmoon",
+            "href": "https://topmoon.ai"
+          }
+        },
+        {
+          "id": "kupu-fullstack-2026",
+          "visible": true,
+          "company": "KUPU",
+          "position": "Full Stack Developer",
+          "location": "Jakarta, Indonesia",
+          "date": "May 2026 - August 2026",
+          "summary": "Built a candidate data platform and a pre-production lead management platform for recruitment operations.",
+          "summaries": [
+            "Built a candidate data platform with React, Go, PostgreSQL, Elasticsearch, and Python, centralizing approximately 3,000 profiles for résumé intake and recruiter search.",
+            "Developed asynchronous résumé-processing workflows with Go, Python, and Kafka, and contributed schema handling to the team’s PostgreSQL-to-Elasticsearch outbox synchronization.",
+            "Built a pre-production lead management platform with SvelteKit, Go, and MySQL, including a backend read model combining company, contact, job, and outreach data for search and reporting."
+          ],
+          "multipleSummaries": [],
+          "technologies": [],
+          "url": {
+            "label": "KUPU",
+            "href": "https://www.linkedin.com/company/kupu-id"
+          }
+        },
+        {
+          "id": "zjy7nshdmslk0265yygoh8iu",
+          "visible": true,
+          "company": "Independent Consultant",
+          "position": "Backend & Full Stack Engineer (Part-time Contracts)",
+          "location": "Remote",
+          "date": "December 2023 - October 2026",
+          "summary": "",
+          "summaries": [],
+          "multipleSummaries": [
+            {
+              "company": "PT Tri Cipta Integra | Dec 2023 – Oct 2026",
+              "summaries": [
+                "Built and improved omnichannel support and CRM workflows for multiple clients, including chat distribution, messaging, history handling, and AI-assisted knowledge and recording analysis."
+              ]
+            },
+            {
+              "company": "eDOT | Feb 2026 – May 2026",
+              "summaries": [
+                "Built Go services to synchronize SAP inventory across warehouses, adding scheduled synchronization, NiFi retries, and delivery-order reconciliation."
+              ]
+            },
+            {
+              "company": "Waizly | Jan 2024 – Jan 2025",
+              "summaries": [
+                "Built Laravel and PostgreSQL inventory reporting and reconciliation workflows; integrated Shopee APIs with idempotent synchronization to reduce duplicate processing and overselling risk."
+              ]
+            }
+          ],
+          "technologies": [],
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "h4hx81s16lnt1g9wp76d63q0",
+          "visible": true,
+          "company": "Renos.id",
+          "position": "Senior Software Engineer",
+          "location": "Jakarta, Indonesia",
+          "date": "October 2023 - February 2026",
+          "summary": "Built Go services for the One-Stop Tool, Home Trend, and RFQ and payment platforms serving Renos.id’s Indonesian and Thai markets.",
+          "summaries": [
+            "Design & Build: Built Go services for a shared Indonesia–Thailand back-office platform, supporting survey, vendor, quotation, VAT, and payment workflows with NetSuite integration.",
+            "Built Go services for HomeTrend discovery and B2B bidding, including quotation and checkout workflows."
+          ],
+          "multipleSummaries": [],
+          "technologies": [],
+          "url": {
+            "label": "Renos.id",
+            "href": "https://renos.id"
+          }
+        },
+        {
+          "id": "rsmrn31u2dqjki7j88oc3yak",
+          "visible": true,
+          "company": "Renos.id",
+          "position": "Software Engineer",
+          "location": "Jakarta, Indonesia",
+          "date": "December 2021 - October 2023",
+          "summary": "Decomposed a Laravel monolith into independently deployable Go microservices, built third-party integrations, and implemented Elasticsearch-backed product search.",
+          "summaries": [
+            "Decomposed a Laravel monolith into independently deployable Go microservices, redesigning service boundaries and introducing concurrent processing.",
+            "Built third-party integrations for ERP, marketing, logistics, and payments, and implemented Elasticsearch-backed product search.",
+            "Integrated SonarCloud and Sentry into delivery workflows while collaborating with frontend, QA, DevOps, and analytics teams."
+          ],
+          "multipleSummaries": [],
+          "technologies": [],
+          "url": {
+            "label": "Renos.id",
+            "href": "https://renos.id"
+          }
+        },
+        {
+          "id": "og79at6u041y7a0k5iqf9pqh",
+          "visible": true,
+          "company": "PT Arca International",
+          "position": "Full Stack Developer",
+          "location": "Jakarta, Indonesia",
+          "date": "October 2019 - November 2021",
+          "summary": "Built Laravel backend services and REST APIs for marketplace, agricultural, legal-service, and HR platforms.",
+          "summaries": [
+            "Built Laravel backend services and REST APIs for marketplace, agricultural, and legal-service platforms, covering commerce workflows, relational data modeling, role-based access, and transactional operations.",
+            "Delivered a Dockerized HRIS using Laravel, PostgreSQL, and Redis caching to support concurrent employee and organizational workflows."
+          ],
+          "multipleSummaries": [],
+          "technologies": [],
+          "url": {
+            "label": "PT Arca International",
+            "href": "https://arcacorp.com/"
+          }
+        }
+      ]
+    },
+    "languages": {
+      "name": "Languages",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "languages",
+      "items": [
+        {
+          "id": "wibw0c1f69cp0rba5tm9boaw",
+          "visible": true,
+          "name": "Bahasa Indonesia",
+          "description": "Native",
+          "level": 0
+        },
+        {
+          "id": "zcwm583xusno1rvbi6icbd5v",
+          "visible": true,
+          "name": "English",
+          "description": "Professional working proficiency",
+          "level": 0
+        }
+      ]
+    },
+    "projects": {
+      "name": "Projects",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "experienceOrder": [
+        "topmoon-ai-agent-2026",
+        "kupu-fullstack-2026",
+        "h4hx81s16lnt1g9wp76d63q0",
+        "rsmrn31u2dqjki7j88oc3yak",
+        "zjy7nshdmslk0265yygoh8iu",
+        "og79at6u041y7a0k5iqf9pqh"
+      ],
+      "id": "projects",
+      "items": [
+        {
+          "id": "one-stop-tool",
+          "visible": true,
+          "title": "Regional Back-Office Services",
+          "description": "Built Go services for survey, vendor, quotation, VAT, and payment workflows, with NetSuite integration for Indonesian and Thai operations.",
+          "company": "Renos.id",
+          "experienceId": "h4hx81s16lnt1g9wp76d63q0",
+          "coverImage": "/assets/dnb/cover.webp",
+          "images": [
+            "/assets/dnb/dnb1.png",
+            "/assets/dnb/dnb2.png",
+            "/assets/dnb/dnb3.png",
+            "/assets/dnb/dnb4.png",
+            "/assets/dnb/dnb5.png",
+            "/assets/dnb/dnb6.png",
+            "/assets/dnb/dnb7.png",
+            "/assets/dnb/dnb8.png"
+          ],
+          "technologies": [
+            "Go",
+            "NetSuite"
+          ],
+          "caseStudy": {
+            "challenge": "Support regional operations from survey and quotation through vendor, payment, and ERP-related workflows across Indonesian and Thai markets.",
+            "ownership": "Built Go services for the shared back-office platform.",
+            "approach": [
+              "Supported survey, vendor, quotation, VAT, and payment workflows.",
+              "Integrated with NetSuite."
+            ],
+            "impact": [
+              "Supported a shared Indonesia–Thailand back-office platform."
+            ]
+          },
+          "categories": [
+            "Backend",
+            "Commerce & Payments"
+          ],
+          "featuredOrder": 4
+        },
+        {
+          "id": "talent-pool",
+          "visible": true,
+          "title": "AI-Assisted Candidate Platform",
+          "description": "Built candidate intake and recruiter search with Go, PostgreSQL, Elasticsearch, Python, and Kafka, including AI-assisted résumé processing.",
+          "company": "KUPU",
+          "experienceId": "kupu-fullstack-2026",
+          "coverImage": "/assets/talent-pool/cover.webp",
+          "images": [
+            "/assets/talent-pool/talent-pool1.png",
+            "/assets/talent-pool/talent-pool2.png",
+            "/assets/talent-pool/talent-pool3.png",
+            "/assets/talent-pool/talent-pool4.png"
+          ],
+          "technologies": [
+            "Go",
+            "PostgreSQL",
+            "Elasticsearch",
+            "Python",
+            "Kafka",
+            "React"
+          ],
+          "caseStudy": {
+            "challenge": "Centralize résumé intake and recruiter search while coordinating AI processing and updates to the search index.",
+            "ownership": "Built candidate platform and AI-assisted résumé-processing workflows; contributed schema handling to the team’s search synchronization.",
+            "approach": [
+              "Developed asynchronous résumé-processing requests using Go, Python, and Kafka, including CV parsing and consumer concurrency controls.",
+              "Contributed schema handling to the team’s transactional outbox for PostgreSQL-to-Elasticsearch synchronization, which includes retries and dead-letter handling."
+            ],
+            "impact": [
+              "Centralized approximately 3,000 candidate profiles for résumé intake and recruiter search."
+            ]
+          },
+          "categories": [
+            "Backend",
+            "AI Systems",
+            "Full Stack",
+            "Recruitment"
+          ],
+          "featuredOrder": 2,
+          "outcome": "Approximately 3,000 candidate profiles centralized"
+        },
+        {
+          "id": "coagent-15s",
+          "visible": true,
+          "title": "AI Listing Video Workflow",
+          "description": "Built an internal OpenClaw listing-video agent with staff approval before paid rendering, persisted job state, and recovery for failed outputs.",
+          "company": "Topmoon",
+          "experienceId": "topmoon-ai-agent-2026",
+          "coverImage": "/assets/coagent-15s/cover.webp",
+          "images": [
+            "/assets/coagent-15s/coagent-15s-1.png",
+            "/assets/coagent-15s/coagent-15s-2.png",
+            "/assets/coagent-15s/coagent-15s-3.png",
+            "/assets/coagent-15s/coagent-15s-4.png",
+            "/assets/coagent-15s/coagent-15s-5.png",
+            "/assets/coagent-15s/coagent-15s-6.png",
+            "/assets/coagent-15s/coagent-15s-7.png",
+            "/assets/coagent-15s/coagent-15s-8.png",
+            "/assets/coagent-15s/coagent-15s-9.png",
+            "/assets/coagent-15s/coagent-15s-10.png",
+            "/assets/coagent-15s/coagent-15s-11.png",
+            "/assets/coagent-15s/coagent-15s-12.png",
+            "/assets/coagent-15s/coagent-15s-13.png",
+            "/assets/coagent-15s/coagent-15s-14.png"
+          ],
+          "technologies": [
+            "OpenClaw",
+            "Python",
+            "FastAPI",
+            "FFmpeg"
+          ],
+          "caseStudy": {
+            "challenge": "Turn property photos into listing videos while retaining staff review before paid rendering and supporting recovery from failed outputs.",
+            "ownership": "Built the OpenClaw-based listing-video agent and worked on approval, provider monitoring, and workflow recovery.",
+            "approach": [
+              "Added staff approval before paid rendering and persisted job state across workflow stages.",
+              "Limited concurrent provider requests and distinguished status monitoring from submitting paid generation.",
+              "Retried failed outputs while preserving completed clips."
+            ],
+            "impact": [
+              "Supported 3–8 property photos and 10–30-second listing videos."
+            ]
+          },
+          "categories": [
+            "Backend",
+            "AI Systems"
+          ],
+          "featuredOrder": 3
+        },
+        {
+          "id": "topmoon-platform",
+          "visible": true,
+          "title": "Customer Ordering Platform",
+          "description": "Built a customer ordering MVP with accounts, private uploads, order tracking, invoices, and checkout.",
+          "company": "Topmoon",
+          "experienceId": "topmoon-ai-agent-2026",
+          "coverImage": "/assets/topmoon-platform/cover.webp",
+          "images": [
+            "/assets/topmoon-platform/topmoon-platform0.png",
+            "/assets/topmoon-platform/topmoon-platform1.png",
+            "/assets/topmoon-platform/topmoon-platform2.png",
+            "/assets/topmoon-platform/topmoon-platform3.png",
+            "/assets/topmoon-platform/topmoon-platform4.png",
+            "/assets/topmoon-platform/topmoon-platform5.png",
+            "/assets/topmoon-platform/topmoon-platform6.png",
+            "/assets/topmoon-platform/topmoon-platform7.png"
+          ],
+          "technologies": [
+            "Next.js",
+            "React",
+            "TypeScript",
+            "Supabase"
+          ],
+          "caseStudy": {
+            "challenge": "Provide a customer ordering experience for listing content.",
+            "ownership": "Built the public website and customer ordering MVP.",
+            "approach": [
+              "Used Next.js, React, TypeScript, and Supabase for customer workflows.",
+              "Developed a checkout hand-off with server-owned payment verification.",
+              "Hardened payment creation and reconciliation with scoped idempotency keys and controls around active payment attempts."
+            ],
+            "impact": [
+              "Delivered a customer ordering MVP."
+            ]
+          },
+          "categories": [
+            "Backend",
+            "Full Stack",
+            "Commerce & Payments"
+          ],
+          "featuredOrder": 6
+        },
+        {
+          "id": "auto-ai-video",
+          "visible": true,
+          "title": "Auto AI Video Self-Service Builder",
+          "description": "Built a FastAPI worker and FFmpeg assembly for a customer-facing self-service video workflow, with persisted processing state and controlled provider requests.",
+          "company": "Topmoon",
+          "experienceId": "topmoon-ai-agent-2026",
+          "coverImage": "/assets/auto-ai-video/cover.webp",
+          "images": [
+            "/assets/auto-ai-video/auto-ai-video-1.png",
+            "/assets/auto-ai-video/auto-ai-video-2.png",
+            "/assets/auto-ai-video/auto-ai-video-3.png",
+            "/assets/auto-ai-video/auto-ai-video-4.png",
+            "/assets/auto-ai-video/auto-ai-video-5.png",
+            "/assets/auto-ai-video/auto-ai-video-6.png"
+          ],
+          "technologies": [
+            "Python",
+            "FastAPI",
+            "FFmpeg"
+          ],
+          "caseStudy": {
+            "challenge": "Support customer-initiated, long-running video generation with recovery for failed outputs.",
+            "ownership": "Built a FastAPI worker and FFmpeg assembly for self-service video generation.",
+            "approach": [
+              "Persisted processing state, controlled provider concurrency, and retried failed outputs.",
+              "Used FFmpeg to assemble generated video for delivery."
+            ],
+            "impact": [
+              "Supported self-service video generation."
+            ]
+          },
+          "categories": [
+            "Backend",
+            "AI Systems",
+            "Full Stack"
+          ],
+          "featuredOrder": null
+        },
+        {
+          "id": "lead-pool",
+          "visible": true,
+          "title": "Lead Pool and Lead Tracking",
+          "description": "Built a pre-production lead platform with Go, MySQL, and SvelteKit, including a backend read model and scraper batch import.",
+          "company": "KUPU",
+          "experienceId": "kupu-fullstack-2026",
+          "coverImage": "/assets/lead-pool/cover.webp",
+          "images": [
+            "/assets/lead-pool/lead-pool1.png",
+            "/assets/lead-pool/lead-pool2.png",
+            "/assets/lead-pool/lead-pool3.png",
+            "/assets/lead-pool/lead-pool4.png",
+            "/assets/lead-pool/lead-pool5.png"
+          ],
+          "technologies": [
+            "Go",
+            "MySQL",
+            "SvelteKit"
+          ],
+          "caseStudy": {
+            "challenge": "Bring company, contact, job, and outreach data together for search and reporting.",
+            "ownership": "Built a pre-production lead management platform.",
+            "approach": [
+              "Built a backend read model and projector combining company, contact, job-posting, and outreach data for search and reporting.",
+              "Added a scraper batch-import workflow and tests for imported lead data."
+            ],
+            "impact": [
+              "Supported search and reporting in a pre-production platform."
+            ]
+          },
+          "categories": [
+            "Backend",
+            "Full Stack",
+            "Recruitment"
+          ],
+          "featuredOrder": null
+        },
+        {
+          "id": "edot-esuite",
+          "visible": true,
+          "title": "SAP Inventory Synchronization",
+          "description": "Built Go services for SAP inventory synchronization across warehouses, scheduled updates, NiFi retries, and delivery-order reconciliation.",
+          "company": "eDOT",
+          "experienceId": "zjy7nshdmslk0265yygoh8iu",
+          "coverImage": "/assets/edot/cover.webp",
+          "images": [
+            "/assets/edot/edot1.png",
+            "/assets/edot/edot2.png"
+          ],
+          "technologies": [
+            "Go",
+            "SAP",
+            "Apache NiFi"
+          ],
+          "caseStudy": {
+            "challenge": "Synchronize SAP inventory across warehouses and support delivery-order reconciliation.",
+            "ownership": "Built Go services for SAP inventory synchronization and worked on delivery-order reconciliation.",
+            "approach": [
+              "Added scheduled SAP stock synchronization and NiFi retry handling for request failures.",
+              "Worked on delivery-order reconciliation to support inventory and order-state alignment."
+            ],
+            "impact": [
+              "Supported inventory synchronization across warehouses and delivery-order reconciliation."
+            ]
+          },
+          "categories": [
+            "Backend",
+            "Commerce & Payments"
+          ],
+          "featuredOrder": 5
+        },
+        {
+          "id": "hometrend",
+          "visible": true,
+          "title": "Renos HomeTrend Platform",
+          "description": "Built Go and PostgreSQL services for home-design discovery, curated content, saved collections, and role-based publishing.",
+          "company": "Renos.id",
+          "experienceId": "h4hx81s16lnt1g9wp76d63q0",
+          "coverImage": "/assets/hometrend/cover.webp",
+          "images": [
+            "/assets/hometrend/hometrend1.jpg",
+            "/assets/hometrend/hometrend2.jpg",
+            "/assets/hometrend/hometrend3.jpg",
+            "/assets/hometrend/hometrend4.jpg"
+          ],
+          "technologies": [
+            "Go",
+            "PostgreSQL"
+          ],
+          "caseStudy": {
+            "challenge": "Support home-design inspiration and product discovery through curated content and saved collections.",
+            "ownership": "Built backend services for HomeTrend.",
+            "approach": [
+              "Supported curated content, product discovery, saved collections, and role-based publishing."
+            ],
+            "impact": [
+              "Delivered services for home-design discovery."
+            ]
+          },
+          "categories": [
+            "Backend",
+            "Commerce & Payments"
+          ],
+          "featuredOrder": null
+        },
+        {
+          "id": "rfq-automation",
+          "visible": true,
+          "title": "B2B Bidding and Checkout",
+          "description": "Developed Go services for B2B quotation and checkout workflows, including promotion validation, access checks, and secure file uploads.",
+          "company": "Renos.id",
+          "experienceId": "h4hx81s16lnt1g9wp76d63q0",
+          "coverImage": "/assets/bidding/cover.webp",
+          "images": [
+            "/assets/bidding/bidding1.png",
+            "/assets/bidding/bidding2.png",
+            "/assets/bidding/bidding3.png",
+            "/assets/bidding/bidding4.png",
+            "/assets/bidding/bidding5.png"
+          ],
+          "technologies": [
+            "Go"
+          ],
+          "caseStudy": {
+            "challenge": "Support structured bulk-procurement requests and quotations between buyers and sellers, with a checkout workflow.",
+            "ownership": "Developed backend bidding and checkout services.",
+            "approach": [
+              "Implemented quotation workflows, promotion validation, access checks, and secure file uploads."
+            ],
+            "impact": [
+              "Supported B2B quotation and checkout workflows."
+            ]
+          },
+          "categories": [
+            "Backend",
+            "Commerce & Payments"
+          ],
+          "featuredOrder": null
+        },
+        {
+          "id": "omnichannel-crm",
+          "visible": true,
+          "title": "Omnichannel Helpdesk and CRM",
+          "description": "Built and improved omnichannel support and CRM workflows for Integra clients, including chat distribution, messaging, history handling, and AI-assisted analysis.",
+          "company": "PT Tri Cipta Integra",
+          "experienceId": "zjy7nshdmslk0265yygoh8iu",
+          "coverImage": "/assets/datakelola/cover.webp",
+          "images": [
+            "/assets/datakelola/datakelola1.png",
+            "/assets/datakelola/datakelola2.png",
+            "/assets/datakelola/datakelola3.png",
+            "/assets/datakelola/datakelola4.png",
+            "/assets/datakelola/datakelola5.png"
+          ],
+          "technologies": [
+            "PHP",
+            "Laravel",
+            "JavaScript",
+            "Socket.IO"
+          ],
+          "caseStudy": {
+            "challenge": "Support client-specific customer-service workflows across messaging, ticketing, and CRM systems.",
+            "ownership": "Built and improved omnichannel messaging, ticketing, chat distribution, and AI-assisted support workflows across multiple client projects.",
+            "approach": [
+              "Improved chat distribution, messaging, webchat, history handling, and operational reliability across customer-service implementations.",
+              "Integrated AI-assisted knowledge and recording or text analysis, including API clients, error handling, feedback, and batch-processing workflows."
+            ],
+            "impact": [
+              "Supported customer-service workflows across multiple client implementations."
+            ]
+          },
+          "categories": [
+            "Backend",
+            "AI Systems",
+            "Full Stack"
+          ],
+          "featuredOrder": null
+        },
+        {
+          "id": "inventory-system",
+          "visible": true,
+          "title": "Inventory Reporting and Synchronization",
+          "description": "Built Laravel and PostgreSQL inventory reporting and reconciliation workflows for a multichannel commerce product, including idempotent Shopee API synchronization.",
+          "company": "PT Inovasi Niaga Integrasi (Waizly)",
+          "experienceId": "zjy7nshdmslk0265yygoh8iu",
+          "coverImage": "/assets/waizly/cover.webp",
+          "images": [
+            "/assets/waizly/waizly1.png",
+            "/assets/waizly/waizly2.png",
+            "/assets/waizly/waizly3.png",
+            "/assets/waizly/waizly4.png",
+            "/assets/waizly/waizly5.png",
+            "/assets/waizly/waizly6.png",
+            "/assets/waizly/waizly7.png",
+            "/assets/waizly/waizly8.png",
+            "/assets/waizly/waizly9.png"
+          ],
+          "technologies": [
+            "Laravel",
+            "PostgreSQL",
+            "Shopee API"
+          ],
+          "categories": [
+            "Backend",
+            "Commerce & Payments"
+          ],
+          "featuredOrder": null,
+          "caseStudy": {
+            "challenge": "Support inventory reporting across warehouse and marketplace workflows while reducing the risk of duplicate processing and overselling.",
+            "ownership": "Built inventory reporting and reconciliation workflows.",
+            "approach": [
+              "Integrated Shopee APIs with idempotent synchronization."
+            ],
+            "impact": [
+              "Addressed duplicate processing and overselling risk."
+            ]
+          }
+        },
+        {
+          "id": "lms",
+          "visible": false,
+          "title": "Learning Application System",
+          "description": "Internal Learning Application System designed to centralize training data, automate HR administration, and align employee competencies with organizational goals.",
+          "company": "PT Hilotech Karya Anak Indonesia",
+          "experienceId": "zjy7nshdmslk0265yygoh8iu",
+          "coverImage": "/assets/lms/cover.webp",
+          "images": [
+            "/assets/lms/lms1.png",
+            "/assets/lms/lms2.png",
+            "/assets/lms/lms3.png"
+          ],
+          "technologies": [
+            "Laravel",
+            "PostgreSQL",
+            "Redis"
+          ],
+          "categories": [
+            "Full Stack"
+          ],
+          "featuredOrder": null
+        },
+        {
+          "id": "agrinis",
+          "visible": true,
+          "title": "Agrinis Shop",
+          "description": "Built Laravel backend services and REST APIs for an agricultural commerce platform.",
+          "company": "PT Arca International",
+          "experienceId": "og79at6u041y7a0k5iqf9pqh",
+          "coverImage": "/assets/shop/cover.webp",
+          "images": [
+            "/assets/shop/shop1.png",
+            "/assets/shop/shop2.png",
+            "/assets/shop/shop3.png"
+          ],
+          "technologies": [
+            "Laravel",
+            "REST APIs"
+          ],
+          "categories": [
+            "Backend",
+            "Full Stack",
+            "Commerce & Payments"
+          ],
+          "featuredOrder": null,
+          "caseStudy": {
+            "challenge": "Support an agricultural commerce platform.",
+            "ownership": "Built backend services and REST APIs.",
+            "approach": [
+              "Worked on commerce workflows, relational data modeling, role-based access, and transactional operations."
+            ],
+            "impact": [
+              "Supported an agricultural commerce platform."
+            ]
+          }
+        },
+        {
+          "id": "prohukum",
+          "visible": true,
+          "title": "ProHukum",
+          "description": "Built Laravel backend services and REST APIs for a legal-service platform.",
+          "company": "PT Arca International",
+          "experienceId": "og79at6u041y7a0k5iqf9pqh",
+          "coverImage": "/assets/ph/cover.webp",
+          "images": [
+            "/assets/ph/ph1.png",
+            "/assets/ph/ph2.png",
+            "/assets/ph/ph3.png"
+          ],
+          "technologies": [
+            "Laravel",
+            "REST APIs"
+          ],
+          "categories": [
+            "Backend",
+            "Full Stack"
+          ],
+          "featuredOrder": null,
+          "caseStudy": {
+            "challenge": "Support a legal-service platform.",
+            "ownership": "Built backend services and REST APIs.",
+            "approach": [
+              "Worked on relational data modeling, role-based access, and transactional operations."
+            ],
+            "impact": [
+              "Supported a legal-service platform."
+            ]
+          }
+        }
+      ]
+    },
+    "skills": {
+      "name": "Skills",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "skills",
+      "items": [
+        {
+          "id": "group-0",
+          "visible": true,
+          "name": "Core backend",
+          "description": "",
+          "level": 0,
+          "keywords": [
+            {
+              "title": "Go",
+              "image": ""
+            },
+            {
+              "title": "PHP",
+              "image": ""
+            },
+            {
+              "title": "Laravel",
+              "image": ""
+            },
+            {
+              "title": "REST APIs",
+              "image": ""
+            },
+            {
+              "title": "Microservices",
+              "image": ""
+            },
+            {
+              "title": "Background jobs",
+              "image": ""
+            }
+          ]
+        },
+        {
+          "id": "group-1",
+          "visible": true,
+          "name": "Data and messaging",
+          "description": "",
+          "level": 0,
+          "keywords": [
+            {
+              "title": "PostgreSQL",
+              "image": ""
+            },
+            {
+              "title": "MySQL",
+              "image": ""
+            },
+            {
+              "title": "Elasticsearch",
+              "image": ""
+            },
+            {
+              "title": "Redis",
+              "image": ""
+            },
+            {
+              "title": "Kafka",
+              "image": ""
+            },
+            {
+              "title": "Transactional outbox",
+              "image": ""
+            },
+            {
+              "title": "Idempotent processing",
+              "image": ""
+            }
+          ]
+        },
+        {
+          "id": "group-2",
+          "visible": true,
+          "name": "AI systems",
+          "description": "",
+          "level": 0,
+          "keywords": [
+            {
+              "title": "Python",
+              "image": ""
+            },
+            {
+              "title": "FastAPI",
+              "image": ""
+            },
+            {
+              "title": "OpenClaw",
+              "image": ""
+            },
+            {
+              "title": "AI-assisted résumé processing",
+              "image": ""
+            },
+            {
+              "title": "Human approval",
+              "image": ""
+            },
+            {
+              "title": "Retries and recovery",
+              "image": ""
+            }
+          ]
+        },
+        {
+          "id": "group-3",
+          "visible": true,
+          "name": "Supporting full stack",
+          "description": "",
+          "level": 0,
+          "keywords": [
+            {
+              "title": "React",
+              "image": ""
+            },
+            {
+              "title": "Next.js",
+              "image": ""
+            },
+            {
+              "title": "SvelteKit",
+              "image": ""
+            },
+            {
+              "title": "TypeScript",
+              "image": ""
+            },
+            {
+              "title": "JavaScript",
+              "image": ""
+            }
+          ]
+        },
+        {
+          "id": "group-4",
+          "visible": true,
+          "name": "Delivery and operations",
+          "description": "",
+          "level": 0,
+          "keywords": [
+            {
+              "title": "Docker",
+              "image": ""
+            },
+            {
+              "title": "AWS ECS",
+              "image": ""
+            },
+            {
+              "title": "AWS EC2",
+              "image": ""
+            },
+            {
+              "title": "S3",
+              "image": ""
+            },
+            {
+              "title": "CI/CD",
+              "image": ""
+            },
+            {
+              "title": "Sentry",
+              "image": ""
+            },
+            {
+              "title": "Go testing",
+              "image": ""
+            },
+            {
+              "title": "PHPUnit",
+              "image": ""
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
